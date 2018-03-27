@@ -8,11 +8,13 @@ en:
   help: "Help"
   sam_app: "Sample App"
   rubyrails_t_s_a: "Ruby on Rails Tutorial Sample App"
+  log_in: "Log in"
+  sign_up_: "Sign up now!"
+  email/password_combination: "Invalid email/password combination"
   static_pages:
     home:
       is_homepage_: "This is the home page for the"
       sam_application: "sample application."
-      sign_up_: "Sign up now!"
       rails_logo: "Rails logo"
       img_cat: "img_cat"
       logo: "Rails logo"
@@ -34,14 +36,18 @@ en:
         the"
       contact_page: "contact page"
   layouts:
-    application:
-      log_in: "Log in"
     _footer:
       footer: "Footer"
       Michael_Hartl: "Michael Hartl"
       new: News
       the: "The"
       by: "by"
+    _header:
+      account: "Account"
+      profile: "Profile"
+      log_out: "Log out"
+      settings: "Settings"
+      users: "Users"
   users:
     new:
       sign_up: "Sign up"
@@ -52,3 +58,6 @@ en:
     _error_messages:
       form_contains: "The form contains"
       error: "error"
+  sessions:
+    new:
+      new_user: "New user?"
