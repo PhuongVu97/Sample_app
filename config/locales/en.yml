@@ -4,7 +4,7 @@ en:
   book: "book"
   static_pages:
     home:
-      sam_app: "Sample App"
+      sam_app: " Welcome to the Sample App"
       is_homepage_: "This is the home page for the"
       sam_application: "sample application."
 
