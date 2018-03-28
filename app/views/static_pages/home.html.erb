@@ -1,0 +1,13 @@
+<% provide :title, t("home") %>
+
+<div class="center jumbotron">
+<h1><%= t ".sam_app" %></h1>
+<h2>
+  <%= t ".is_homepage_"%>
+  <a href="http://www.railstutorial.org/"><%= t "help_ruby"%></a>
+  <%= t ".sam_application"%>
+</h2>
+<%= link_to t(".sign_up"), signup_path , class:"btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt:"Rails logo"), 'http://rubyonrails.org' %>
+<%= link_to image_tag("kitten.jpg", alt:"Cat"), '#', id: "img_cat" %>
