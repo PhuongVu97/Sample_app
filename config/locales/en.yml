@@ -1,33 +1,31 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  help_ruby: "Ruby on Rails Tutorial"
+  book: "book"
+  static_pages:
+    home:
+      home: Home
+      sam_app: "Sample App"
+      is_homepage_: "This is the home page for the"
+      sam_application: "sample application."
+    help:
+      help: "Help"
+      get_help: "Get help on the Ruby on Rails Tutorial at the" 
+      help_page: "Rails Tutorial help page"
+      to_help: "To get help on this sample app, see the"
+      book: "book"
+    about:
+      about: "About"
+      the: "the"
+      is_a: "is a"
+      and: "and"
+      screen_series: "screencast series"
+      to_teach: "to teach web development with"
+      ruby_rails: "Ruby on RailsS"
+      is_sam_application: "This is the sample application for the tutorial."
+    contact:
+      contact: Contact
+      contact_about: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_page: "contact page"
+    application_helper:
+      rubyrails_t_s_a: "Ruby on Rails Tutorial Sample App"
+      
