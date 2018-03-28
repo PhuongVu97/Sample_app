@@ -16,7 +16,7 @@ en:
       rails_logo: "Rails logo"
       img_cat: "img_cat"
     help:
-      get_help: "Get help on the Ruby on Rails Tutorial at the" 
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
       help_page: "Rails Tutorial help page"
       to_help: "To get help on this sample app, see the"
       book: "book"
@@ -31,6 +31,7 @@ en:
     contact:
       contact_about: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
+  layouts:
     application:
       log_in: "Log in"
     _footer:
@@ -39,7 +40,9 @@ en:
       new: News
       the: "The"
       by: "by"
+  users:
     new:
       sign_up: "Sign up"
       this_signup_page: "This will be a signup page for new users."
-    
+      Users: "Users#new"
+      find_page: "Find me in app/views/users/new.html.erb"
