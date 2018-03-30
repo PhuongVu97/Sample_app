@@ -61,3 +61,4 @@ en:
   sessions:
     new:
       new_user: "New user?"
+      remember_me_on_computer: "Remember me on this computer"
