@@ -1,31 +1,45 @@
 en:
   help_ruby: "Ruby on Rails Tutorial"
   book: "book"
+  contact: Contact
+  about: "About"
+  home: "Home"
+  help: "Help"
+  sam_app: "Sample App"
+  rubyrails_t_s_a: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
-      home: Home
       sam_app: "Sample App"
       is_homepage_: "This is the home page for the"
       sam_application: "sample application."
+      sign_up_: "Sign up now!"
+      rails_logo: "Rails logo"
+      img_cat: "img_cat"
     help:
-      help: "Help"
       get_help: "Get help on the Ruby on Rails Tutorial at the" 
       help_page: "Rails Tutorial help page"
       to_help: "To get help on this sample app, see the"
       book: "book"
     about:
-      about: "About"
       the: "the"
       is_a: "is a"
       and: "and"
       screen_series: "screencast series"
       to_teach: "to teach web development with"
-      ruby_rails: "Ruby on RailsS"
+      ruby_rails: "Ruby on Rails"
       is_sam_application: "This is the sample application for the tutorial."
     contact:
-      contact: Contact
       contact_about: "Contact the Ruby on Rails Tutorial about the sample app at the"
       contact_page: "contact page"
-    application_helper:
-      rubyrails_t_s_a: "Ruby on Rails Tutorial Sample App"
-      
+    application:
+      log_in: "Log in"
+    _footer:
+      footer: "Footer"
+      Michael_Hartl: "Michael Hartl"
+      new: News
+      the: "The"
+      by: "by"
+    new:
+      sign_up: "Sign up"
+      this_signup_page: "This will be a signup page for new users."
+    
