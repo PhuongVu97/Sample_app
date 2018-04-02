@@ -1,4 +1,5 @@
 en:
+  sampleapp: "Welcome to the Sample App!"
   help_ruby: "Ruby on Rails Tutorial"
   book: "book"
   contact: Contact
@@ -9,12 +10,12 @@ en:
   rubyrails_t_s_a: "Ruby on Rails Tutorial Sample App"
   static_pages:
     home:
-      sam_app: "Sample App"
       is_homepage_: "This is the home page for the"
       sam_application: "sample application."
       sign_up_: "Sign up now!"
       rails_logo: "Rails logo"
       img_cat: "img_cat"
+      logo: "Rails logo"
     help:
       get_help: "Get help on the Ruby on Rails Tutorial at the"
       help_page: "Rails Tutorial help page"
@@ -29,7 +30,8 @@ en:
       ruby_rails: "Ruby on Rails"
       is_sam_application: "This is the sample application for the tutorial."
     contact:
-      contact_about: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      contact_about: "Contact the Ruby on Rails Tutorial about the sample app at
+        the"
       contact_page: "contact page"
   layouts:
     application:
@@ -44,5 +46,9 @@ en:
     new:
       sign_up: "Sign up"
       this_signup_page: "This will be a signup page for new users."
-      Users: "Users#new"
-      find_page: "Find me in app/views/users/new.html.erb"
+      create_account: "Create my account"
+      confirmation: "Confirmation"
+  shared:
+    _error_messages:
+      form_contains: "The form contains"
+      error: "error"
